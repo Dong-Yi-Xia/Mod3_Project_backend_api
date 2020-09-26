@@ -1,0 +1,3 @@
+class ScoopsController < ApplicationController
+    
+end
