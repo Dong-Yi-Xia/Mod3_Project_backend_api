@@ -12,21 +12,21 @@
 
 
  fla = [
-     {name: "cotton candy", price: 2, image: " "},
-     {name: "coconut charcoal", price: 2, image: " "},
-     {name: "churros", price: 3, image: " "},
-     {name: "honey grapefruit", price: 3, image: " "},
-     {name: "avocado lime", price: 2, image: " "},
-     {name: "lavender", price: 4, image: " "},
-     {name: "date banana", price: 4, image: " "},
-     {name: "chilly chocolate", price: 3, image: " "},
-     {name: "ginger pineapple", price: 2, image: " "},
-     {name: "marshmallow", price: 1, image: " "},
-     {name: "cinnamon vanilla bean", price: 2, image: " "},
-     {name: "vanilla", price: 2, image: " "},
-     {name: "chocolate", price: 3, image: " "},
-     {name: "strawberry", price: 1, image: " "},
-     {name: "hibiscus", price: 2, image: " "}
+     {name: "cotton candy", price: 2, image: "https://res.cloudinary.com/deliqsg1t/image/upload/v1601227727/mod%203%20project%20photos/roasted_cherry_bourbon_swirl_ice_cream_recipe_gv3yqn.jpg"},
+     {name: "coconut charcoal", price: 2, image: "https://res.cloudinary.com/deliqsg1t/image/upload/v1601228309/mod%203%20project%20photos/Charcoal_xaeaso.png"},
+     {name: "churros", price: 3, image: "https://res.cloudinary.com/deliqsg1t/image/upload/v1601228985/mod%203%20project%20photos/churros_vqk434.jpg"},
+     {name: "honey grapefruit", price: 3, image: "https://res.cloudinary.com/deliqsg1t/image/upload/v1601227697/mod%203%20project%20photos/Honey_Ice_Cream_xm8dze.jpg"},
+     {name: "avocado lime", price: 2, image: "https://res.cloudinary.com/deliqsg1t/image/upload/v1601227516/mod%203%20project%20photos/green_wsf0iq.jpg"},
+     {name: "lavender", price: 4, image: "https://res.cloudinary.com/deliqsg1t/image/upload/v1601227535/mod%203%20project%20photos/Lavender_Ice_Cream_pblrpx.png"},
+     {name: "date banana", price: 4, image: "https://res.cloudinary.com/deliqsg1t/image/upload/v1601228882/mod%203%20project%20photos/Date_Ice_Cream_Delicious_Shots_bicrnk.jpg"},
+     {name: "chilly chocolate", price: 3, image: "https://res.cloudinary.com/deliqsg1t/image/upload/v1601229105/mod%203%20project%20photos/chilly_choco_jyyujg.jpg"},
+     {name: "ginger pineapple", price: 2, image: "https://res.cloudinary.com/deliqsg1t/image/upload/v1601228735/mod%203%20project%20photos/gingerpineapple_oz3fk0.jpg"},
+     {name: "marshmallow", price: 1, image: "https://res.cloudinary.com/deliqsg1t/image/upload/v1601228529/mod%203%20project%20photos/Marshmallow_Ice_thznbr.jpg"},
+     {name: "cinnamon vanilla bean", price: 2, image: "https://res.cloudinary.com/deliqsg1t/image/upload/v1601227615/mod%203%20project%20photos/cinn_mljzt5.jpg"},
+     {name: "vanilla", price: 2, image: "https://res.cloudinary.com/deliqsg1t/image/upload/v1601228369/mod%203%20project%20photos/vanilla_wjys4t.jpg"},
+     {name: "chocolate", price: 3, image: "https://res.cloudinary.com/deliqsg1t/image/upload/v1601227463/mod%203%20project%20photos/chocolate_lgljnv.jpg"},
+     {name: "strawberry", price: 1, image: "https://res.cloudinary.com/deliqsg1t/image/upload/v1601227727/mod%203%20project%20photos/roasted_cherry_bourbon_swirl_ice_cream_recipe_gv3yqn.jpg"},
+     {name: "hibiscus", price: 2, image: "https://res.cloudinary.com/deliqsg1t/image/upload/v1601227560/mod%203%20project%20photos/Raspberry_Coconut_Ice_Cream_-_Vegan_Family_Recipes_znljey.jpg"}
  ]
  Flavor.create(fla)
 
