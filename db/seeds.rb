@@ -47,12 +47,12 @@ top = [
  Topping.create(top)
 
 mil = [
-    {name: "wholemilk", price:3},
-    {name: "almond", price:3},
-    {name: "cashew", price:3},
-    {name: "oat milk", price:3},
-    {name: "soy", price:3},
-    {name: "coconut", price:3}
+    {name: "wholemilk", price: 3},
+    {name: "almond", price: 3},
+    {name: "cashew", price: 3},
+    {name: "oat milk", price: 3},
+    {name: "soy", price: 3},
+    {name: "coconut", price: 3}
 ]
 
  Milk.create(mil)
