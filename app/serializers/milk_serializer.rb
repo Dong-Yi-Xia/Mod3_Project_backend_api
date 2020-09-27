@@ -1,3 +1,3 @@
 class MilkSerializer < ActiveModel::Serializer
-  attributes :id, :name
+  attributes :id, :name, :price
 end

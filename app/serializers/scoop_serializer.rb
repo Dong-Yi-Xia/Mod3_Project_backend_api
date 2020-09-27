@@ -1,3 +1,3 @@
 class ScoopSerializer < ActiveModel::Serializer
-  attributes :id, :number
+  attributes :id, :number, :price
 end

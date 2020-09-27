@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 2020_09_26_193054) do
 
   create_table "flavors", force: :cascade do |t|
     t.string "name"
+    t.integer "price"
     t.string "image"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -24,6 +25,7 @@ ActiveRecord::Schema.define(version: 2020_09_26_193054) do
 
   create_table "milks", force: :cascade do |t|
     t.string "name"
+    t.integer "price"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -58,12 +60,14 @@ ActiveRecord::Schema.define(version: 2020_09_26_193054) do
 
   create_table "scoops", force: :cascade do |t|
     t.integer "number"
+    t.integer "price"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "toppings", force: :cascade do |t|
     t.string "name"
+    t.integer "price"
     t.string "image"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

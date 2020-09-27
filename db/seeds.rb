@@ -12,55 +12,55 @@
 
 
  fla = [
-     {name: "cotton candy", image: " "},
-     {name: "coconut charcoal", image: " "},
-     {name: "churros", image: " "},
-     {name: "honey grapefruit", image: " "},
-     {name: "avocado lime", image: " "},
-     {name: "lavender", image: " "},
-     {name: "date banana", image: " "},
-     {name: "chilly chocolate", image: " "},
-     {name: "ginger pineapple", image: " "},
-     {name: "marshmallow", image: " "},
-     {name: "cinnamon vanilla bean", image: " "},
-     {name: "vanilla", image: " "},
-     {name: "chocolate", image: " "},
-     {name: "strawberry", image: " "},
-     {name: "hibiscus", image: " "}
+     {name: "cotton candy", price: 2, image: " "},
+     {name: "coconut charcoal", price: 2, image: " "},
+     {name: "churros", price: 3, image: " "},
+     {name: "honey grapefruit", price: 3, image: " "},
+     {name: "avocado lime", price: 2, image: " "},
+     {name: "lavender", price: 4, image: " "},
+     {name: "date banana", price: 4, image: " "},
+     {name: "chilly chocolate", price: 3, image: " "},
+     {name: "ginger pineapple", price: 2, image: " "},
+     {name: "marshmallow", price: 1, image: " "},
+     {name: "cinnamon vanilla bean", price: 2, image: " "},
+     {name: "vanilla", price: 2, image: " "},
+     {name: "chocolate", price: 3, image: " "},
+     {name: "strawberry", price: 1, image: " "},
+     {name: "hibiscus", price: 2, image: " "}
  ]
  Flavor.create(fla)
 
 
 top = [
-    {name: "grasshoppers", image: " "},
-     {name: "ants", image: " "},
-     {name: "honey", image: " "},
-     {name: "sprinkles", image: " "},
-     {name: "hot chocolate", image: " "},
-     {name: "nuts", image: " "},
-     {name: "dry fruit", image: " "},
-     {name: "hot sauce", image: " "},
-     {name: "coconut flakes", image: " "},
-     {name: "jellybeans", image: " "}
+    {name: "grasshoppers", price: 1, image: " "},
+     {name: "ants", price: 1, image: " "},
+     {name: "honey", price: 2, image: " "},
+     {name: "sprinkles", price: 1, image: " "},
+     {name: "hot chocolate", price: 2, image: " "},
+     {name: "nuts", price: 1, image: " "},
+     {name: "dry fruit", price: 2, image: " "},
+     {name: "hot sauce", price: 1, image: " "},
+     {name: "coconut flakes", price: 1, image: " "},
+     {name: "jellybeans", price: 1, image: " "}
 ]
 
  Topping.create(top)
 
 mil = [
-    {name: "wholemilk"},
-    {name: "almond"},
-    {name: "cashew"},
-    {name: "oat milk"},
-    {name: "soy"},
-    {name: "coconut"}
+    {name: "wholemilk", price:3},
+    {name: "almond", price:3},
+    {name: "cashew", price:3},
+    {name: "oat milk", price:3},
+    {name: "soy", price:3},
+    {name: "coconut", price:3}
 ]
 
  Milk.create(mil)
 
  num = [
-     {number: 1},
-     {number: 2},
-     {number: 3}
+     {number: 1, price: 2},
+     {number: 2, price: 3},
+     {number: 3, price: 4}
  ]
 
  Scoop.create(num)
