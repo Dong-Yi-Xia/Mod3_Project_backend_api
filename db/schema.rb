@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_09_26_193054) do
+ActiveRecord::Schema.define(version: 2020_09_27_185920) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -30,16 +30,20 @@ ActiveRecord::Schema.define(version: 2020_09_26_193054) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "purchasedlogs", force: :cascade do |t|
+  create_table "purchased_logs", force: :cascade do |t|
     t.bigint "user_id", null: false
-    t.string "flavor"
-    t.string "topping"
-    t.string "milk"
-    t.integer "scoop"
+    t.bigint "flavor_id", null: false
+    t.bigint "topping_id", null: false
+    t.bigint "milk_id", null: false
+    t.bigint "scoop_id", null: false
     t.integer "price"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["user_id"], name: "index_purchasedlogs_on_user_id"
+    t.index ["flavor_id"], name: "index_purchased_logs_on_flavor_id"
+    t.index ["milk_id"], name: "index_purchased_logs_on_milk_id"
+    t.index ["scoop_id"], name: "index_purchased_logs_on_scoop_id"
+    t.index ["topping_id"], name: "index_purchased_logs_on_topping_id"
+    t.index ["user_id"], name: "index_purchased_logs_on_user_id"
   end
 
   create_table "reviews", force: :cascade do |t|
@@ -79,7 +83,11 @@ ActiveRecord::Schema.define(version: 2020_09_26_193054) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  add_foreign_key "purchasedlogs", "users"
+  add_foreign_key "purchased_logs", "flavors"
+  add_foreign_key "purchased_logs", "milks"
+  add_foreign_key "purchased_logs", "scoops"
+  add_foreign_key "purchased_logs", "toppings"
+  add_foreign_key "purchased_logs", "users"
   add_foreign_key "reviews", "flavors"
   add_foreign_key "reviews", "milks"
   add_foreign_key "reviews", "scoops"

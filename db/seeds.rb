@@ -65,7 +65,7 @@ mil = [
 
  Scoop.create(num)
 
- Purchasedlog.create(user: boo)
+ PurchasedLog.create(user: boo, flavor_id: 1, topping_id: 1, milk_id: 1, scoop_id: 1, price: 10)
 
  Review.create(user: boo, flavor_id: 1, topping_id: 1, milk_id: 1, scoop_id: 1, review: "Great Taste")
 

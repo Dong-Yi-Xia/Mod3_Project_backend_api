@@ -2,16 +2,16 @@
 
 one:
   user: one
-  flavor: MyString
-  topping: MyString
-  milk: MyString
-  scoop: 1
+  flavor: one
+  topping: one
+  milk: one
+  scoop: one
   price: 1
 
 two:
   user: two
-  flavor: MyString
-  topping: MyString
-  milk: MyString
-  scoop: 1
+  flavor: two
+  topping: two
+  milk: two
+  scoop: two
   price: 1

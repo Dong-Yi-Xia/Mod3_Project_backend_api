@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class PurchasedlogTest < ActiveSupport::TestCase
+class PurchasedLogsControllerTest < ActionDispatch::IntegrationTest
   # test "the truth" do
   #   assert true
   # end
