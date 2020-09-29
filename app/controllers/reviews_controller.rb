@@ -5,4 +5,10 @@ class ReviewsController < ApplicationController
         render json: @reviews
     end
 
+
+    def create 
+        byebug
+        render json: 
+    end
+
 end
