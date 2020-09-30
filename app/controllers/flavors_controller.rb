@@ -7,7 +7,7 @@ class FlavorsController < ApplicationController
 
     def update
         @flavor = Flavor.find_by(id: params[:id])
-        @flavor.update(id: params[:id], like: params[:like])
+        @flavor.update(like: params[:like])
         render json: @flavor
     end
 
