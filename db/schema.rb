@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 2020_09_27_185920) do
     t.string "name"
     t.integer "price"
     t.string "image"
+    t.boolean "like"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

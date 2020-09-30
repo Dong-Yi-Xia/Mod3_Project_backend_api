@@ -4,6 +4,7 @@ class CreateFlavors < ActiveRecord::Migration[6.0]
       t.string :name
       t.integer :price
       t.string :image
+      t.boolean :like
 
       t.timestamps
     end
