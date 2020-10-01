@@ -12,7 +12,7 @@
 
 
  fla = [
-     {name: "cotton candy", price: 2, image: "https://res.cloudinary.com/deliqsg1t/image/upload/v1601227727/mod%203%20project%20photos/roasted_cherry_bourbon_swirl_ice_cream_recipe_gv3yqn.jpg", like: false},
+     {name: "cotton candy", price: 2, image: "https://res.cloudinary.com/deliqsg1t/image/upload/v1601237811/mod%203%20project%20photos/From_Ros%C3%A9_to_Basil_Goat_Cheese__This_Summer_s_Most_Unique_and_Delicious_Ice_Cream_Flavors_otbgnf.jpg", like: false},
      {name: "coconut charcoal", price: 2, image: "https://res.cloudinary.com/deliqsg1t/image/upload/v1601228309/mod%203%20project%20photos/Charcoal_xaeaso.png", like: false},
      {name: "churros", price: 3, image: "https://res.cloudinary.com/deliqsg1t/image/upload/v1601228985/mod%203%20project%20photos/churros_vqk434.jpg", like: false},
      {name: "honey grapefruit", price: 3, image: "https://res.cloudinary.com/deliqsg1t/image/upload/v1601227697/mod%203%20project%20photos/Honey_Ice_Cream_xm8dze.jpg", like: false},
